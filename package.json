@@ -14,8 +14,8 @@
     "url": "git+https://github.com/enbattle/azure-mysql-nodemailer-joi-sample.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Steven Li",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/enbattle/azure-mysql-nodemailer-joi-sample/issues"
   },
