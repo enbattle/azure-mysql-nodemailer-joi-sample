@@ -1,0 +1,37 @@
+{
+  "name": "azure-mysql-nodemailer-joi-sample",
+  "version": "1.0.0",
+  "description": "Sample project that uses azure, mysql, nodemailer, and joi",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "clean": "rimraf dist",
+    "prestart": "npm run clean && npm run build",
+    "start": "func start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enbattle/azure-mysql-nodemailer-joi-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enbattle/azure-mysql-nodemailer-joi-sample/issues"
+  },
+  "homepage": "https://github.com/enbattle/azure-mysql-nodemailer-joi-sample#readme",
+  "devDependencies": {
+    "@azure/functions": "^4.1.0",
+    "@types/hapi__joi": "^17.1.14",
+    "@types/mysql": "^2.15.24",
+    "@types/node": "^20.10.3",
+    "azure-function-core-tools": "^0.0.1-security",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "mysql": "^2.18.1"
+  }
+}
