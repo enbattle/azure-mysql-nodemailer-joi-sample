@@ -13,6 +13,7 @@ export enum LogLevel {
 }
 
 export enum EventCategories {
+  SAMPLE_ISSUES = "Sample issues",
   NOTIFICATION_ISSUES = "Notification issues",
   LOGIN_ISSUES = "Login Issues",
   VALIDATION_ISSUES = "Validation Issues",
